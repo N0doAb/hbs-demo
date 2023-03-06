@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <link href="/styles/main.css" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Template</h1>
+        </nav>
+
+        <div>
+            <div class="textarea-container">
+                <textarea id="templateInput-content"></textarea>
+                <textarea id="placeholderInput-content"></textarea>
+            </div>
+        </div>
+        <div class="text-output">
+            <div id="text-output"></div>
+        </div>
+        <div class="buttons">
+            <button id="submitBtn">Submit</button>
+            <button id="resetBtn">Reset</button>
+            <button id="saveBtn">Save</button>
+        </div>
+
+        <div id="docData-container"></div>
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

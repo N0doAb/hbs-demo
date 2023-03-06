@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    height: 45px;
+}
+
+nav h1 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: grey;
+}
+
+.textarea-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    background-color: rgb(61, 61, 61);
+    color:white;
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    resize: none;
+    border: solid 1px black;
+}
+
+.text-output {
+    display: flex;
+    justify-content: center;
+}
+
+#text-output {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+    width: 810px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons button {
+    width: 80px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding:7px 14px;
+    margin-bottom: 10px;
+}
+
+#docData-container p {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    padding: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.docData-container {
+    display: flex;
+    width: 800px;
+}
+
+.singleDoc {
+    background-color: rgb(95, 93, 93);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+#deleteBtn {
+    cursor: pointer;
+}
