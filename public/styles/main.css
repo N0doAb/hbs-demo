@@ -25,6 +25,25 @@ body {
     background-color: grey;
 }
 
+.nameInput-container, .searchInput-container {
+    display: flex;
+    justify-content: center;
+}
+
+#nameInput {
+    background-color: rgb(61, 61, 61);
+    border: solid 1px black;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+#searchInput {
+    background-color: rgb(61, 61, 61);
+    border: solid 1px black;
+    margin: 15px 0;
+}
+
 .textarea-container {
     margin-top: 15px;
     display: flex;
@@ -71,7 +90,7 @@ textarea {
     margin-bottom: 10px;
 }
 
-#docData-container p {
+#docData-container p, #docData-container h2 {
     display: flex;
     justify-content: center;
     margin-top: 4px;
