@@ -37,7 +37,7 @@ setup = () => {
     displayDocs();
     reset();
     try {
-        const docs = document.querySelectorAll('#docData-container p');
+        const docs = document.querySelectorAll('#docData-container p, #docData-container h2');
         const deleteBtn = document.querySelectorAll('#deleteBtn');
 
         docs.forEach(doc => {
@@ -98,8 +98,8 @@ saveDoc = () => {
 }
 
 onload = setup();
-textBlock.addEventListener('keyup', result)
-variablesBlock.addEventListener('keyup', result)
+textBlock.addEventListener('keyup', result);
+variablesBlock.addEventListener('keyup', result);
 resetBtn.addEventListener('click', reset);
 saveBtn.addEventListener('click', saveDoc);
 submitBtn.addEventListener('click', result);
